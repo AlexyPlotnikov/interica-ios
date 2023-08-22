@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B4B645B28FE4CCD00882300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B645A28FE4CCD00882300 /* AppDelegate.swift */; };
+		5B4B645F28FE4CCD00882300 /* WelcomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B645E28FE4CCD00882300 /* WelcomeController.swift */; };
+		5B4B646228FE4CCD00882300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B646028FE4CCD00882300 /* Main.storyboard */; };
+		5B4B646428FE4CD200882300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B646328FE4CD200882300 /* Assets.xcassets */; };
+		5B4B646728FE4CD200882300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4B646528FE4CD200882300 /* LaunchScreen.storyboard */; };
+		5B4B647228FE4CD200882300 /* IntericaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B647128FE4CD200882300 /* IntericaTests.swift */; };
+		5B4B647C28FE4CD200882300 /* IntericaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B647B28FE4CD200882300 /* IntericaUITests.swift */; };
+		5B4B647E28FE4CD200882300 /* IntericaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B647D28FE4CD200882300 /* IntericaUITestsLaunchTests.swift */; };
+		5B4B648C28FE51E000882300 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B648B28FE51E000882300 /* LoginController.swift */; };
+		5B4B648F28FEA60200882300 /* RadioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4B648E28FEA60200882300 /* RadioController.swift */; };
+		6852A6AE2906419E00DC0A4B /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6852A6AD2906419D00DC0A4B /* LoginTextField.swift */; };
+		6852A6B0290641E500DC0A4B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6852A6AF290641E400DC0A4B /* Extensions.swift */; };
+		6852A6BB290650D900DC0A4B /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6852A6B2290650D600DC0A4B /* Inter-Bold.ttf */; };
+		6852A6BC290650D900DC0A4B /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6852A6B3290650D800DC0A4B /* Inter-Thin.ttf */; };
+		6852A6BD290650D900DC0A4B /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6852A6B4290650D800DC0A4B /* Inter-Regular.ttf */; };
+		6852A6BE290650D900DC0A4B /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6852A6B5290650D800DC0A4B /* Inter-Medium.ttf */; };
+		6852A6BF290650D900DC0A4B /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6852A6B6290650D800DC0A4B /* Inter-Black.ttf */; };
+		6852A6C0290650D900DC0A4B /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6852A6B7290650D800DC0A4B /* Inter-ExtraBold.ttf */; };
+		6852A6C1290650D900DC0A4B /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6852A6B8290650D900DC0A4B /* Inter-Light.ttf */; };
+		6852A6C2290650D900DC0A4B /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6852A6B9290650D900DC0A4B /* Inter-ExtraLight.ttf */; };
+		6852A6C3290650D900DC0A4B /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6852A6BA290650D900DC0A4B /* Inter-SemiBold.ttf */; };
+		68E1F5012941D83F0006176A /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 68E1F5002941D83F0006176A /* FirebaseMessaging */; };
+		68E1F5032941D84F0006176A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 68E1F5022941D84F0006176A /* GoogleService-Info.plist */; };
+		68E1F5062941DED90006176A /* ServerConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E1F5052941DED90006176A /* ServerConnector.swift */; };
+		68E1F5082941DEF70006176A /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68E1F5072941DEF70006176A /* Auth.swift */; };
+		68F1ADEE290657E400ADB3CF /* SPIndicator in Frameworks */ = {isa = PBXBuildFile; productRef = 68F1ADED290657E400ADB3CF /* SPIndicator */; };
+		68F1ADF0290678A400ADB3CF /* RadioCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F1ADEF290678A400ADB3CF /* RadioCell.swift */; };
+		68F1ADF32906A4BC00ADB3CF /* CheckboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F1ADF22906A4BC00ADB3CF /* CheckboxController.swift */; };
+		68F1ADF52907A97D00ADB3CF /* CheckboxCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F1ADF42907A97D00ADB3CF /* CheckboxCell.swift */; };
+		68F1ADF82907C93B00ADB3CF /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F1ADF72907C93B00ADB3CF /* TextViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B4B646E28FE4CD200882300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B4B644F28FE4CCC00882300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B4B645628FE4CCD00882300;
+			remoteInfo = Interica;
+		};
+		5B4B647828FE4CD200882300 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B4B644F28FE4CCC00882300 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B4B645628FE4CCD00882300;
+			remoteInfo = Interica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B4B645728FE4CCD00882300 /* Interica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4B645A28FE4CCD00882300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B4B645E28FE4CCD00882300 /* WelcomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeController.swift; sourceTree = "<group>"; };
+		5B4B646128FE4CCD00882300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B4B646328FE4CD200882300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B4B646628FE4CD200882300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B4B646828FE4CD200882300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4B646D28FE4CD200882300 /* IntericaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntericaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4B647128FE4CD200882300 /* IntericaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntericaTests.swift; sourceTree = "<group>"; };
+		5B4B647728FE4CD200882300 /* IntericaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntericaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4B647B28FE4CD200882300 /* IntericaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntericaUITests.swift; sourceTree = "<group>"; };
+		5B4B647D28FE4CD200882300 /* IntericaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntericaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B4B648B28FE51E000882300 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		5B4B648E28FEA60200882300 /* RadioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioController.swift; sourceTree = "<group>"; };
+		6852A6AD2906419D00DC0A4B /* LoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		6852A6AF290641E400DC0A4B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		6852A6B2290650D600DC0A4B /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		6852A6B3290650D800DC0A4B /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		6852A6B4290650D800DC0A4B /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		6852A6B5290650D800DC0A4B /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		6852A6B6290650D800DC0A4B /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		6852A6B7290650D800DC0A4B /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6852A6B8290650D900DC0A4B /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		6852A6B9290650D900DC0A4B /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		6852A6BA290650D900DC0A4B /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		68E1F5022941D84F0006176A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		68E1F5042941DDB40006176A /* Interica.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Interica.entitlements; sourceTree = "<group>"; };
+		68E1F5052941DED90006176A /* ServerConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerConnector.swift; sourceTree = "<group>"; };
+		68E1F5072941DEF70006176A /* Auth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		68F1ADEF290678A400ADB3CF /* RadioCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioCell.swift; sourceTree = "<group>"; };
+		68F1ADF22906A4BC00ADB3CF /* CheckboxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxController.swift; sourceTree = "<group>"; };
+		68F1ADF42907A97D00ADB3CF /* CheckboxCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxCell.swift; sourceTree = "<group>"; };
+		68F1ADF72907C93B00ADB3CF /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B4B645428FE4CCD00882300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E1F5012941D83F0006176A /* FirebaseMessaging in Frameworks */,
+				68F1ADEE290657E400ADB3CF /* SPIndicator in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4B646A28FE4CD200882300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4B647428FE4CD200882300 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B4B644E28FE4CCC00882300 = {
+			isa = PBXGroup;
+			children = (
+				5B4B645928FE4CCD00882300 /* Interica */,
+				5B4B647028FE4CD200882300 /* IntericaTests */,
+				5B4B647A28FE4CD200882300 /* IntericaUITests */,
+				5B4B645828FE4CCD00882300 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B4B645828FE4CCD00882300 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B4B645728FE4CCD00882300 /* Interica.app */,
+				5B4B646D28FE4CD200882300 /* IntericaTests.xctest */,
+				5B4B647728FE4CD200882300 /* IntericaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B4B645928FE4CCD00882300 /* Interica */ = {
+			isa = PBXGroup;
+			children = (
+				68E1F5042941DDB40006176A /* Interica.entitlements */,
+				5B4B645A28FE4CCD00882300 /* AppDelegate.swift */,
+				5B4B645E28FE4CCD00882300 /* WelcomeController.swift */,
+				6852A6AD2906419D00DC0A4B /* LoginTextField.swift */,
+				6852A6AF290641E400DC0A4B /* Extensions.swift */,
+				68E1F5052941DED90006176A /* ServerConnector.swift */,
+				68E1F5072941DEF70006176A /* Auth.swift */,
+				68E1F5022941D84F0006176A /* GoogleService-Info.plist */,
+				68F1ADF62907AFB800ADB3CF /* TextViewController */,
+				68F1ADF12906A49900ADB3CF /* CheckboxController */,
+				6852A6B1290650BC00DC0A4B /* Fonts */,
+				5B4B648A28FE51C400882300 /* LoginController */,
+				5B4B648D28FEA5E000882300 /* RadioController */,
+				5B4B646028FE4CCD00882300 /* Main.storyboard */,
+				5B4B646328FE4CD200882300 /* Assets.xcassets */,
+				5B4B646528FE4CD200882300 /* LaunchScreen.storyboard */,
+				5B4B646828FE4CD200882300 /* Info.plist */,
+			);
+			path = Interica;
+			sourceTree = "<group>";
+		};
+		5B4B647028FE4CD200882300 /* IntericaTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B4B647128FE4CD200882300 /* IntericaTests.swift */,
+			);
+			path = IntericaTests;
+			sourceTree = "<group>";
+		};
+		5B4B647A28FE4CD200882300 /* IntericaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B4B647B28FE4CD200882300 /* IntericaUITests.swift */,
+				5B4B647D28FE4CD200882300 /* IntericaUITestsLaunchTests.swift */,
+			);
+			path = IntericaUITests;
+			sourceTree = "<group>";
+		};
+		5B4B648A28FE51C400882300 /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				5B4B648B28FE51E000882300 /* LoginController.swift */,
+			);
+			path = LoginController;
+			sourceTree = "<group>";
+		};
+		5B4B648D28FEA5E000882300 /* RadioController */ = {
+			isa = PBXGroup;
+			children = (
+				5B4B648E28FEA60200882300 /* RadioController.swift */,
+				68F1ADEF290678A400ADB3CF /* RadioCell.swift */,
+			);
+			path = RadioController;
+			sourceTree = "<group>";
+		};
+		6852A6B1290650BC00DC0A4B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6852A6B6290650D800DC0A4B /* Inter-Black.ttf */,
+				6852A6B2290650D600DC0A4B /* Inter-Bold.ttf */,
+				6852A6B7290650D800DC0A4B /* Inter-ExtraBold.ttf */,
+				6852A6B9290650D900DC0A4B /* Inter-ExtraLight.ttf */,
+				6852A6B8290650D900DC0A4B /* Inter-Light.ttf */,
+				6852A6B5290650D800DC0A4B /* Inter-Medium.ttf */,
+				6852A6B4290650D800DC0A4B /* Inter-Regular.ttf */,
+				6852A6BA290650D900DC0A4B /* Inter-SemiBold.ttf */,
+				6852A6B3290650D800DC0A4B /* Inter-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		68F1ADF12906A49900ADB3CF /* CheckboxController */ = {
+			isa = PBXGroup;
+			children = (
+				68F1ADF22906A4BC00ADB3CF /* CheckboxController.swift */,
+				68F1ADF42907A97D00ADB3CF /* CheckboxCell.swift */,
+			);
+			path = CheckboxController;
+			sourceTree = "<group>";
+		};
+		68F1ADF62907AFB800ADB3CF /* TextViewController */ = {
+			isa = PBXGroup;
+			children = (
+				68F1ADF72907C93B00ADB3CF /* TextViewController.swift */,
+			);
+			path = TextViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B4B645628FE4CCD00882300 /* Interica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4B648128FE4CD200882300 /* Build configuration list for PBXNativeTarget "Interica" */;
+			buildPhases = (
+				5B4B645328FE4CCD00882300 /* Sources */,
+				5B4B645428FE4CCD00882300 /* Frameworks */,
+				5B4B645528FE4CCD00882300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Interica;
+			packageProductDependencies = (
+				68F1ADED290657E400ADB3CF /* SPIndicator */,
+				68E1F5002941D83F0006176A /* FirebaseMessaging */,
+			);
+			productName = Interica;
+			productReference = 5B4B645728FE4CCD00882300 /* Interica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B4B646C28FE4CD200882300 /* IntericaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4B648428FE4CD200882300 /* Build configuration list for PBXNativeTarget "IntericaTests" */;
+			buildPhases = (
+				5B4B646928FE4CD200882300 /* Sources */,
+				5B4B646A28FE4CD200882300 /* Frameworks */,
+				5B4B646B28FE4CD200882300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B4B646F28FE4CD200882300 /* PBXTargetDependency */,
+			);
+			name = IntericaTests;
+			productName = IntericaTests;
+			productReference = 5B4B646D28FE4CD200882300 /* IntericaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B4B647628FE4CD200882300 /* IntericaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4B648728FE4CD200882300 /* Build configuration list for PBXNativeTarget "IntericaUITests" */;
+			buildPhases = (
+				5B4B647328FE4CD200882300 /* Sources */,
+				5B4B647428FE4CD200882300 /* Frameworks */,
+				5B4B647528FE4CD200882300 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B4B647928FE4CD200882300 /* PBXTargetDependency */,
+			);
+			name = IntericaUITests;
+			productName = IntericaUITests;
+			productReference = 5B4B647728FE4CD200882300 /* IntericaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B4B644F28FE4CCC00882300 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					5B4B645628FE4CCD00882300 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					5B4B646C28FE4CD200882300 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 5B4B645628FE4CCD00882300;
+					};
+					5B4B647628FE4CD200882300 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 5B4B645628FE4CCD00882300;
+					};
+				};
+			};
+			buildConfigurationList = 5B4B645228FE4CCC00882300 /* Build configuration list for PBXProject "Interica" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B4B644E28FE4CCC00882300;
+			packageReferences = (
+				68F1ADEC290657E400ADB3CF /* XCRemoteSwiftPackageReference "SPIndicator" */,
+				68E1F4FF2941D83F0006176A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 5B4B645828FE4CCD00882300 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B4B645628FE4CCD00882300 /* Interica */,
+				5B4B646C28FE4CD200882300 /* IntericaTests */,
+				5B4B647628FE4CD200882300 /* IntericaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B4B645528FE4CCD00882300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6852A6C3290650D900DC0A4B /* Inter-SemiBold.ttf in Resources */,
+				6852A6C1290650D900DC0A4B /* Inter-Light.ttf in Resources */,
+				5B4B646728FE4CD200882300 /* LaunchScreen.storyboard in Resources */,
+				5B4B646428FE4CD200882300 /* Assets.xcassets in Resources */,
+				68E1F5032941D84F0006176A /* GoogleService-Info.plist in Resources */,
+				6852A6C0290650D900DC0A4B /* Inter-ExtraBold.ttf in Resources */,
+				6852A6BB290650D900DC0A4B /* Inter-Bold.ttf in Resources */,
+				6852A6BC290650D900DC0A4B /* Inter-Thin.ttf in Resources */,
+				6852A6BE290650D900DC0A4B /* Inter-Medium.ttf in Resources */,
+				6852A6BD290650D900DC0A4B /* Inter-Regular.ttf in Resources */,
+				6852A6C2290650D900DC0A4B /* Inter-ExtraLight.ttf in Resources */,
+				5B4B646228FE4CCD00882300 /* Main.storyboard in Resources */,
+				6852A6BF290650D900DC0A4B /* Inter-Black.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4B646B28FE4CD200882300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4B647528FE4CD200882300 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B4B645328FE4CCD00882300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E1F5082941DEF70006176A /* Auth.swift in Sources */,
+				68F1ADF82907C93B00ADB3CF /* TextViewController.swift in Sources */,
+				68F1ADF32906A4BC00ADB3CF /* CheckboxController.swift in Sources */,
+				5B4B645F28FE4CCD00882300 /* WelcomeController.swift in Sources */,
+				68F1ADF52907A97D00ADB3CF /* CheckboxCell.swift in Sources */,
+				68F1ADF0290678A400ADB3CF /* RadioCell.swift in Sources */,
+				5B4B648C28FE51E000882300 /* LoginController.swift in Sources */,
+				5B4B645B28FE4CCD00882300 /* AppDelegate.swift in Sources */,
+				6852A6AE2906419E00DC0A4B /* LoginTextField.swift in Sources */,
+				5B4B648F28FEA60200882300 /* RadioController.swift in Sources */,
+				68E1F5062941DED90006176A /* ServerConnector.swift in Sources */,
+				6852A6B0290641E500DC0A4B /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4B646928FE4CD200882300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4B647228FE4CD200882300 /* IntericaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4B647328FE4CD200882300 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4B647E28FE4CD200882300 /* IntericaUITestsLaunchTests.swift in Sources */,
+				5B4B647C28FE4CD200882300 /* IntericaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B4B646F28FE4CD200882300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B4B645628FE4CCD00882300 /* Interica */;
+			targetProxy = 5B4B646E28FE4CD200882300 /* PBXContainerItemProxy */;
+		};
+		5B4B647928FE4CD200882300 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B4B645628FE4CCD00882300 /* Interica */;
+			targetProxy = 5B4B647828FE4CD200882300 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B4B646028FE4CCD00882300 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B4B646128FE4CCD00882300 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B4B646528FE4CD200882300 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B4B646628FE4CD200882300 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B4B647F28FE4CD200882300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B4B648028FE4CD200882300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B4B648228FE4CD200882300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Interica/Interica.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34V6A2G2D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Interica/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxgroup.crmde;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B4B648328FE4CD200882300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Interica/Interica.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34V6A2G2D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Interica/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxgroup.crmde;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B4B648528FE4CD200882300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34V6A2G2D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxgroup.interica.IntericaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interica.app/Interica";
+			};
+			name = Debug;
+		};
+		5B4B648628FE4CD200882300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34V6A2G2D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxgroup.interica.IntericaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Interica.app/Interica";
+			};
+			name = Release;
+		};
+		5B4B648828FE4CD200882300 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34V6A2G2D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxgroup.interica.IntericaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Interica;
+			};
+			name = Debug;
+		};
+		5B4B648928FE4CD200882300 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 34V6A2G2D4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rxgroup.interica.IntericaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Interica;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B4B645228FE4CCC00882300 /* Build configuration list for PBXProject "Interica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4B647F28FE4CD200882300 /* Debug */,
+				5B4B648028FE4CD200882300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4B648128FE4CD200882300 /* Build configuration list for PBXNativeTarget "Interica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4B648228FE4CD200882300 /* Debug */,
+				5B4B648328FE4CD200882300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4B648428FE4CD200882300 /* Build configuration list for PBXNativeTarget "IntericaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4B648528FE4CD200882300 /* Debug */,
+				5B4B648628FE4CD200882300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4B648728FE4CD200882300 /* Build configuration list for PBXNativeTarget "IntericaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4B648828FE4CD200882300 /* Debug */,
+				5B4B648928FE4CD200882300 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		68E1F4FF2941D83F0006176A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		68F1ADEC290657E400ADB3CF /* XCRemoteSwiftPackageReference "SPIndicator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ivanvorobei/SPIndicator";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		68E1F5002941D83F0006176A /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68E1F4FF2941D83F0006176A /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		68F1ADED290657E400ADB3CF /* SPIndicator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 68F1ADEC290657E400ADB3CF /* XCRemoteSwiftPackageReference "SPIndicator" */;
+			productName = SPIndicator;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 5B4B644F28FE4CCC00882300 /* Project object */;
+}
